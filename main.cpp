@@ -2,12 +2,8 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-
-// Read from txt file and preform insert or pop operations and store in vector
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <sstream>
+#include "myVector.hpp"
+#include "myList.hpp"
 
 int main()
 {
@@ -47,10 +43,7 @@ int main()
 
     file.close(); // Close the file
 
-    for (auto it = instructions.begin(); it != instructions.end(); ++it)
-    {
-        std::cout << *it << " ";
-    }
+    listMedian(&instructions);
 
     return 0;
 }
