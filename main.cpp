@@ -4,6 +4,7 @@
 #include <sstream>
 #include "myVector.hpp"
 #include "myList.hpp"
+#include "myHeap.hpp"
 
 int main()
 {
@@ -43,7 +44,7 @@ int main()
 
     file.close(); // Close the file
 
-    listMedian(&instructions);
+    heapMedian(&instructions);
 
     return 0;
 }
