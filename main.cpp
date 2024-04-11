@@ -9,7 +9,7 @@
 
 int main()
 {
-    std::ifstream file("testinput.txt"); // Open input file
+    std::ifstream file("input3.txt"); // Open input file
 
     if (!file.is_open())
     {

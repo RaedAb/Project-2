@@ -1,4 +1,5 @@
 #include "myAVLtree.hpp"
+#include <chrono>
 
 void treeMedian(const std::vector<int> *instructions)
 {

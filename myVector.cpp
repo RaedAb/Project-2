@@ -1,4 +1,5 @@
 #include <iostream>
+#include <chrono>
 #include "myVector.hpp"
 
 void vectorMedian(const std::vector<int> *instructions)
@@ -31,7 +32,6 @@ void vectorMedian(const std::vector<int> *instructions)
             }
         }
     } // main loop end
-
 
     // Print output
     for (auto it = medians.begin(); it != medians.end(); ++it)
